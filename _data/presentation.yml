@@ -1,0 +1,167 @@
+- sectionname: webfoundations
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: what-is-the-web.md
+      class: centered-slide
+
+    - filename: definitions.md
+      class: default-slide
+
+    - filename: who-owns-the-web.md
+      class: centered-slide
+
+    - filename: claiming-ownership.md
+      class: default-slide
+
+    - filename: loading-a-webpage.md
+      class: default-slide
+
+    - filename: telephone-comparison.md
+      class: default-slide
+
+    - filename: the-open-web.md
+      class: default-slide
+
+    - filename: open-web-values.md
+      class: default-slide
+
+    - filename: net-neutrality.md
+      class: default-slide
+
+    - filename: charging-for-websites.md
+      class: centered-slide
+
+    - filename: web-censorship.md
+      class: centered-slide
+
+    - filename: southern-cross-cable.md
+      class: centered-slide
+
+    - filename: summary.md
+      class: default-slide
+
+
+- sectionname: pagestructure
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: languages.md
+      class: centered-slide
+
+    - filename: html.md
+      class: centered-slide
+
+    - filename: css.md
+      class: centered-slide
+
+    - filename: javascript.md
+      class: centered-slide
+
+    - filename: summary.md
+      class: centered-slide
+
+
+- sectionname: htmlbasics
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: lets-play.md
+      class: default-slide
+
+    - filename: tag-pairs-intro.md
+      class: default-slide
+
+    - filename: common-tag-pairs.md
+      class: default-slide
+
+    - filename: links-and-attributes.md
+      class: default-slide
+
+    - filename: links-challenge.md
+      class: default-slide
+
+    - filename: self-closing.md
+      class: default-slide
+
+    - filename: news-item-challenge.md
+      class: default-slide
+
+
+- sectionname: cssbasics
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: syntax.md
+      class: default-slide
+
+    - filename: multiple-rules.md
+      class: default-slide
+
+    - filename: choosing-colours.md
+      class: default-slide
+
+    - filename: using-colours.md
+      class: default-slide
+
+    - filename: syntax.md
+      class: default-slide
+
+
+- sectionname: sitebuilder
+  slides:
+
+    - filename: title-page.md
+      class: title-slide
+
+    - filename: starter-files.md
+      class: default-slide
+
+    - filename: page-background.md
+      class: default-slide
+
+    - filename: header-html.md
+      class: default-slide
+
+    - filename: header-css.md
+      class: default-slide
+
+    - filename: google-fonts.md
+      class: default-slide
+
+    - filename: title-design.md
+      class: default-slide
+
+    - filename: section-intro.md
+      class: default-slide
+
+    - filename: section-intro-style.md
+      class: default-slide
+
+    - filename: gallery-html.md
+      class: default-slide
+
+    - filename: gallery-css.md
+      class: default-slide
+
+    - filename: gallery-image-css.md
+      class: default-slide
+
+
+- sectionname: endsummary
+  slides:
+
+    - filename: feedback.md
+      class: centered-slide
+
+
+
+
