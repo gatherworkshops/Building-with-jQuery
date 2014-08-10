@@ -1,3 +1,6 @@
 [submodule "slideshow"]
 	path = slideshow
 	url = git@www.penflip.com:tanya/building-the-web-slideshow.git
+[submodule "submodules/revealjs"]
+	path = submodules/revealjs
+	url = git@github.com:hakimel/reveal.js.git
