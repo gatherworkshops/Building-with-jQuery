@@ -1,4 +1,4 @@
-name: Building with Python
-baseurl: "/Building-with-Python"
+name: Building the Web
+baseurl: "/Building-the-Web"
 markdown: redcarpet
 highlighter: true

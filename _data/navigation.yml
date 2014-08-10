@@ -2,24 +2,27 @@
   url: index.html
 
 
-- title: Presentation
-  url: presentation/overview.html
+- title: Slideshow
+  url: slideshow/overview.html
   subpages:
 
-    - title: The Power of Python
-      url: presentation/#/pythonfoundations
+    - title: Foundations of the Web
+      url: slideshow/#/webfoundations
 
-    - title: Language Basics
-      url: presentation/#/languagebasics
+    - title: Page Structure
+      url: slideshow/#/pagestructure
 
-    - title: Creating Programs
-      url: presentation/#/creatingprograms
+    - title: HTML Basics
+      url: slideshow/#/htmlbasics
 
-    - title: Game Loop
-      url: presentation/#/gameloop
+    - title: CSS Basics
+      url: slideshow/#/cssbasics
 
-    - title: Customisation
-      url: presentation/#/customisation
+    - title: Site Builder
+      url: slideshow/#/sitebuilder
+
+    - title: Summary
+      url: slideshow/#/endsummary
 
 
 

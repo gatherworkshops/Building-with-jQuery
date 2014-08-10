@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Building with Python
-tagline: An interactive introduction to programming with Python.
+title: Building the Web
+tagline: An interactive introduction to website programming.
 ---
 
-Welcome to Building with Python! This site is designed for use with a workshop delivered by the Gather Workshops team, but it also contains some extra bits and pieces for you to explore in your own time.
+Welcome to Building the Web! This site is designed for use with a workshop delivered by the Gather Workshops team, but it also contains some extra bits and pieces for you to explore in your own time.
 
 This resource is entirely open source, so if you find a problem please [report an issue](#), or even fix it yourself and then [send us a pull request](#).
 

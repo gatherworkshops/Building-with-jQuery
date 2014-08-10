@@ -1,165 +1,165 @@
 - sectionname: webfoundations
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: what-is-the-web.md
+    - filename: what-is-the-web
       class: centered-slide
 
-    - filename: definitions.md
+    - filename: definitions
       class: default-slide
 
-    - filename: who-owns-the-web.md
+    - filename: who-owns-the-web
       class: centered-slide
 
-    - filename: claiming-ownership.md
+    - filename: claiming-ownership
       class: default-slide
 
-    - filename: loading-a-webpage.md
+    - filename: loading-a-webpage
       class: default-slide
 
-    - filename: telephone-comparison.md
+    - filename: telephone-comparison
       class: default-slide
 
-    - filename: the-open-web.md
+    - filename: the-open-web
       class: default-slide
 
-    - filename: open-web-values.md
+    - filename: open-web-values
       class: default-slide
 
-    - filename: net-neutrality.md
+    - filename: net-neutrality
       class: default-slide
 
-    - filename: charging-for-websites.md
+    - filename: charging-for-websites
       class: centered-slide
 
-    - filename: web-censorship.md
+    - filename: web-censorship
       class: centered-slide
 
-    - filename: southern-cross-cable.md
+    - filename: southern-cross-cable
       class: centered-slide
 
-    - filename: summary.md
+    - filename: summary
       class: default-slide
 
 
 - sectionname: pagestructure
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: languages.md
+    - filename: languages
       class: centered-slide
 
-    - filename: html.md
+    - filename: html
       class: centered-slide
 
-    - filename: css.md
+    - filename: css
       class: centered-slide
 
-    - filename: javascript.md
+    - filename: javascript
       class: centered-slide
 
-    - filename: summary.md
+    - filename: summary
       class: centered-slide
 
 
 - sectionname: htmlbasics
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: lets-play.md
+    - filename: lets-play
       class: default-slide
 
-    - filename: tag-pairs-intro.md
+    - filename: tag-pairs-intro
       class: default-slide
 
-    - filename: common-tag-pairs.md
+    - filename: common-tag-pairs
       class: default-slide
 
-    - filename: links-and-attributes.md
+    - filename: links-and-attributes
       class: default-slide
 
-    - filename: links-challenge.md
+    - filename: links-challenge
       class: default-slide
 
-    - filename: self-closing.md
+    - filename: self-closing
       class: default-slide
 
-    - filename: news-item-challenge.md
+    - filename: news-item-challenge
       class: default-slide
 
 
 - sectionname: cssbasics
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: syntax.md
+    - filename: syntax
       class: default-slide
 
-    - filename: multiple-rules.md
+    - filename: multiple-rules
       class: default-slide
 
-    - filename: choosing-colours.md
+    - filename: choosing-colours
       class: default-slide
 
-    - filename: using-colours.md
+    - filename: using-colours
       class: default-slide
 
-    - filename: syntax.md
+    - filename: syntax
       class: default-slide
 
 
 - sectionname: sitebuilder
   slides:
 
-    - filename: title-page.md
+    - filename: title-page
       class: title-slide
 
-    - filename: starter-files.md
+    - filename: starter-files
       class: default-slide
 
-    - filename: page-background.md
+    - filename: page-background
       class: default-slide
 
-    - filename: header-html.md
+    - filename: header-html
       class: default-slide
 
-    - filename: header-css.md
+    - filename: header-css
       class: default-slide
 
-    - filename: google-fonts.md
+    - filename: google-fonts
       class: default-slide
 
-    - filename: title-design.md
+    - filename: title-design
       class: default-slide
 
-    - filename: section-intro.md
+    - filename: section-intro
       class: default-slide
 
-    - filename: section-intro-style.md
+    - filename: section-intro-style
       class: default-slide
 
-    - filename: gallery-html.md
+    - filename: gallery-html
       class: default-slide
 
-    - filename: gallery-css.md
+    - filename: gallery-css
       class: default-slide
 
-    - filename: gallery-image-css.md
+    - filename: gallery-image-css
       class: default-slide
 
 
 - sectionname: endsummary
   slides:
 
-    - filename: feedback.md
+    - filename: feedback
       class: centered-slide
 
 
