@@ -56,8 +56,10 @@
 		</div>
 
 		<div class="inline-notes">
-			<!-- display notes here using js -->
-			<p>Loading...</p>
+			<div class="content">
+				<!-- display notes here using js -->
+				<p>Loading...</p>
+			</div>
 		</div>
 
 		<script src="{{ site.baseurl }}/submodules/revealjs/lib/js/head.min.js"></script>
@@ -92,7 +94,13 @@
 					{ src: '{{ site.baseurl }}/submodules/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); 
+					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/highlight/highlight.js', async: true, callback: function() {
+							hljs.configure({
+								tabReplace: '    ', // 4 spaces
+  								classPrefix: '',     // don't append class prefix
+	  							languages: ['html', 'css']	// only handle html and css
+							});
+							hljs.initHighlightingOnLoad(); 
 						} },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '{{ site.baseurl }}/submodules/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
@@ -101,13 +109,22 @@
 
 			Reveal.addEventListener( 'ready', function( event ) {
 				notes = $(event.currentSlide).find('aside.notes').html();
-			    $('.inline-notes').html(marked(notes));
+			    $('.inline-notes .content').html(marked(notes));
 			} );
 
 			Reveal.addEventListener( 'slidechanged', function( event ) {
 			    notes = $(event.currentSlide).find('aside.notes').html();
-			    $('.inline-notes').html(marked(notes));
+			    $('.inline-notes .content').html(marked(notes));
 			} );
+
+			$(document).keypress(function(e) {
+			  	if(e.which == 13) {
+			  		$("body").toggleClass("with-notes");
+			  	}
+			});
+
+			
+
 
 		</script>
 

@@ -7,6 +7,9 @@
     - filename: what-is-the-web
       class: centered-slide
 
+    - filename: internet-vs-web
+      class: centered-slide
+
     - filename: definitions
       class: default-slide
 
@@ -17,18 +20,9 @@
       class: default-slide
 
     - filename: loading-a-webpage
-      class: default-slide
+      class: centered-slide
 
     - filename: telephone-comparison
-      class: default-slide
-
-    - filename: the-open-web
-      class: default-slide
-
-    - filename: open-web-values
-      class: default-slide
-
-    - filename: net-neutrality
       class: default-slide
 
     - filename: charging-for-websites
@@ -39,6 +33,15 @@
 
     - filename: southern-cross-cable
       class: centered-slide
+
+    - filename: the-open-web
+      class: default-slide
+
+    - filename: open-web-values
+      class: default-slide
+
+    - filename: net-neutrality
+      class: default-slide
 
     - filename: summary
       class: default-slide
@@ -112,9 +115,6 @@
     - filename: using-colours
       class: default-slide
 
-    - filename: syntax
-      class: default-slide
-
 
 - sectionname: sitebuilder
   slides:
@@ -123,6 +123,9 @@
       class: title-slide
 
     - filename: starter-files
+      class: default-slide
+
+    - filename: neocities-setup
       class: default-slide
 
     - filename: page-background
@@ -153,6 +156,9 @@
       class: default-slide
 
     - filename: gallery-image-css
+      class: default-slide
+
+    - filename: videos-html
       class: default-slide
 
 
