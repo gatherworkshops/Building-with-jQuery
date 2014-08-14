@@ -3,4 +3,4 @@
 	url = https://github.com/hakimel/reveal.js.git
 [submodule "slideshow"]
 	path = slideshow
-	url = https://www.penflip.com/tanya/building-the-web-slideshow.git
+	url = https://tanya@www.penflip.com/tanya/building-the-web-slideshow.git
