@@ -2,7 +2,7 @@
 
 For a simple logo design, we can start by choosing a nice font.
 
-Choose a font from Google Fonts and use it here.
+Choose a font from <a href="http://google.com/fonts" target="_blank">Google Fonts</a> and use it here.
 
 	h1 {
 		font-family: 'Pacifico', cursive;
