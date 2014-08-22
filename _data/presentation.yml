@@ -168,6 +168,40 @@
     - filename: feedback
       class: centered-slide
 
+- sectionname: curiosityquests
+  slides:
 
+    - filename: title-page
+      class: title-slide
+
+    - filename: navigation
+      class: subtitle-slide
+
+    - filename: navigation-html
+      class: default-slide
+
+    - filename: navigation-links
+      class: default-slide
+
+    - filename: navigation-css
+      class: default-slide
+
+    - filename: nav-button-css
+      class: default-slide
+
+    - filename: additional-pages
+      class: default-slide
+
+    - filename: own-images
+      class: subtitle-slide
+
+    - filename: own-images-folder
+      class: default-slide
+
+    - filename: using-own-images
+      class: default-slide
+
+    - filename: image-subfolders
+      class: default-slide
 
 
