@@ -7,6 +7,7 @@ section: webfoundations
 video: A9HV5O8Un6k
 
 next: pagestructure
+nexttitle: Page Structure
 ---
 
 ## Who invented the Internet, and why?

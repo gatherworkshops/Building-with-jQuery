@@ -1,13 +1,16 @@
 ---
 layout: recipe
-title: Foundations of the Web
-tagline: What the web is made of
+title: Fancy Header
+tagline: Funky logo
 
 section: fancyheader
 video: A9HV5O8Un6k
 
 previous: sitebuilder
+previoustitle: Site Builder
+
 next: introsection
+nexttitle: Intro Section
 ---
 
 Video goes here

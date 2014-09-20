@@ -1,13 +1,16 @@
 ---
 layout: recipe
-title: Foundations of the Web
-tagline: What the web is made of
+title: CSS Basics
+tagline: Prettifying your page
 
 section: cssbasics
 video: A9HV5O8Un6k
 
 previous: htmlbasics
+previoustitle: HTML Basics
+
 next: sitebuilder
+nexttitle: Site Builder
 ---
 
 Video goes here

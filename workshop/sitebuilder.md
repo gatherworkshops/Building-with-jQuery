@@ -1,13 +1,16 @@
 ---
 layout: recipe
-title: Foundations of the Web
-tagline: What the web is made of
+title: Site Builder
+tagline: Getting started with your own website
 
 section: sitebuilder
 video: A9HV5O8Un6k
 
 previous: cssbasics
+previoustitle: CSS Basics
+
 next: fancyheader
+nexttitle: Fancy Header
 ---
 
 Video goes here

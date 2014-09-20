@@ -1,13 +1,16 @@
 ---
 layout: recipe
-title: Foundations of the Web
-tagline: What the web is made of
+title: HTML Basics
+tagline: Diggin into code
 
 section: htmlbasics
 video: A9HV5O8Un6k
 
 previous: pagestructure
+previoustitle: Page Structure
+
 next: cssbasics
+nexttitle: CSS Basics
 ---
 
 Video goes here
