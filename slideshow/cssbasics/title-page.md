@@ -1,3 +1,5 @@
+![Gather Workshops Logo](images/gw_logo_header.png)
+
 # Exploring CSS
 ### Adding some style to your pages
 

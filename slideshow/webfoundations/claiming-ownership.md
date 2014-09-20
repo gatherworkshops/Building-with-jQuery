@@ -12,7 +12,7 @@
 
 
 Note:
-Nobody can claim ownership of the internet, but many people own parts of the system which make the Internet possible.
+Nobody can claim ownership of the Internet, but many people own parts of the system which make the Internet possible.
 
 The web is a set of documents, so nobody can claim ownership of the web either.
 

@@ -1,8 +1,8 @@
-## Self-closing tags
+## Self-closing Elements
 
-Self-closing tags have no closing tag - only an opening tag.
+Self-closing elements have no closing tag - only an opening tag.
 
-Here are the tags for **horizontal rule**, **line break**, and **image**:
+Here is the code for **horizontal rule**, **line break**, and **image**:
 
 	<hr>
 

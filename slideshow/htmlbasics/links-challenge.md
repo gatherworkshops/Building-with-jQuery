@@ -20,11 +20,11 @@ Have a go at the [links challenge](http://dabblet.com/gist/30f3c027e95359fbcd7a)
 
 Note:
 
-Fill in the href attributes for each on dabblet.
+Try out this Dabblet and see if you can get the links all working properly.
 
-The first one has been done for you.
+Fill in the `href` attribute correctly for each of the links. The first one has been done for you.
 
-
+All you need to do is find the web addresses that the links should link to, and put that link between the `href` attribute's quote marks `" "`.
 
 
 Subpage:

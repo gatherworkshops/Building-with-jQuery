@@ -3,12 +3,13 @@
 ![Diagram of how a web page is served](images/diagram_http.png)
 
 Note:
-Client is your computer. (PC, laptop, phone)
 
-ISP handles your internet account. (Telecom, Orcon, Vodafone)
+So how does our computer load a web page over the Internet?
 
-Server is where web page files are stored. (Warehouses full of computers)
+First of all the client, your computer, sends a URL request like "youtube.com" to your ISP (eg. Orcon, Spark or Vodafone).
 
-DNS stores list of names matched to IP addresses. (Map of URLs against IP addresses)
+Your ISP sends a request to the Domain Name Server, which turns the URL into an IP Address.
 
-All these separate parts are owned by separate people.
+Using the IP Address, your ISP can find the actual server where the web page files are stored, and send them back to your computer. 
+
+All these separate parts are owned by different people.

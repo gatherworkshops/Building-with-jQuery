@@ -1,7 +1,7 @@
 # Who owns it all?
 
 Note:
-So who owns the internet?
+So who owns the Internet?
 
 And who owns the web?
 

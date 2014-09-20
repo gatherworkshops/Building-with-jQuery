@@ -1,15 +1,22 @@
-## Tag Pairs
+## Element Structure
 
-Every tag pair consists of an opening tag and a closing tag.
+Every HTML element has a piece of code to start the element, <br>
+and a piece of code to end the element.
 
-	<tag> </tag>
+	<p> </p>
 
-And the actual content to display goes between them:
+These pieces of code wrapped in `<` and `>` are known as "tags".
 
-	<h1> My Awesome Page </h1>
+The actual content to display goes between these tags. 
+
+	<p> I love bunnies. Bunnies are great. Yay Bunnies. </p>
 
 
 Note:
-As you can see from the code we just wrote, each piece of content we put on the page is contained between an open and a closing tag, which describes the type of content.
+Each piece of content we put on the page is called an "element" of the page.
 
-Note that the tags match, except for the forward slash in the closing tag.
+To create an element, we put a piece of content between an opening tag and a closing tag.
+
+There is a set of HTML elements for us to choose from. `h1` and `p` are just two of the elements we could choose to use.
+
+The type of element we choose should describe the content between its tags.

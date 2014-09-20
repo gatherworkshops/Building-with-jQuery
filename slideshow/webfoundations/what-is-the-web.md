@@ -4,7 +4,7 @@ If a 5-year-old asked you "What is the Internet?" <br>
 how would you answer?
 
 Note:
-Let's have a think about what the Internet actually is.
+Before we start coding, let's have a think about what the Internet actually is.
 
 - What do we use the Internet for?
 

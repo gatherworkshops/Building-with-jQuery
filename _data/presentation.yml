@@ -7,6 +7,9 @@
     - filename: what-is-the-web
       class: centered-slide
 
+    - filename: internet-brainstorm
+      class: centered-slide
+
     - filename: internet-vs-web
       class: centered-slide
 
@@ -47,6 +50,8 @@
       class: default-slide
 
 
+
+
 - sectionname: pagestructure
   slides:
 
@@ -67,6 +72,8 @@
 
     - filename: summary
       class: centered-slide
+
+
 
 
 - sectionname: htmlbasics
@@ -97,6 +104,8 @@
       class: default-slide
 
 
+
+
 - sectionname: cssbasics
   slides:
 
@@ -116,6 +125,8 @@
       class: default-slide
 
 
+
+
 - sectionname: sitebuilder
   slides:
 
@@ -123,7 +134,7 @@
       class: title-slide
 
     - filename: starter-files
-      class: default-slide
+      class: centered-slide
 
     - filename: neocities-setup
       class: default-slide
@@ -131,23 +142,59 @@
     - filename: page-background
       class: default-slide
 
+
+
+
+- sectionname: fancyheader
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
     - filename: header-html
       class: default-slide
 
     - filename: header-css
       class: default-slide
 
-    - filename: google-fonts
+    - filename: google-font-selection
+      class: default-slide
+
+    - filename: google-font-include
+      class: default-slide
+
+    - filename: google-font-css
+      class: default-slide
+
+    - filename: google-font-example
       class: default-slide
 
     - filename: title-design
       class: default-slide
+
+
+
+
+- sectionname: introsection
+  slides:
+
+    - filename: title-page
+      class: title-slide
 
     - filename: section-intro
       class: default-slide
 
     - filename: section-intro-style
       class: default-slide
+
+
+
+
+- sectionname: imagegallery
+  slides:
+
+    - filename: title-page
+      class: title-slide
 
     - filename: gallery-html
       class: default-slide
@@ -158,8 +205,24 @@
     - filename: gallery-image-css
       class: default-slide
 
+
+- sectionname: youtube
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
     - filename: videos-html
       class: default-slide
+
+
+
+
+- sectionname: publish
+  slides:
+
+    - filename: title-page
+      class: title-slide
 
 
 - sectionname: endsummary
@@ -167,6 +230,9 @@
 
     - filename: feedback
       class: centered-slide
+
+
+
 
 - sectionname: curiosityquests
   slides:

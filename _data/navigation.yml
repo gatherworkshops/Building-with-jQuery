@@ -1,4 +1,4 @@
-- title: Introduction
+- title: Workshop
   url: index.html
 
 
@@ -27,7 +27,7 @@
 
 
 
-- title: Workbook
+- title: Cookbook
   url: workbook/overview.html
   subpages:
 

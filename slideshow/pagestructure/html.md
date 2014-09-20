@@ -7,4 +7,6 @@ HTML is used to define the content of a web page: the words, the pictures, the l
 
 It does not define any sizes, colours or layout.
 
+HTML stand for HyperText Markup Language.
+
 This is a picture of what Google looks like when you see only the HTML - no CSS or Javascript.

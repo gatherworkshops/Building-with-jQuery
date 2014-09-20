@@ -1,3 +1,5 @@
+![Gather Workshops Logo](images/gw_logo_header.png)
+
 # What Lies Beneath
 ## The bones of a web page
 
