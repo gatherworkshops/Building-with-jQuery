@@ -4,35 +4,36 @@
 
 
 - title: Cookbook
-  url: workbook/overview.html
+  url: cookbook/overview.html
   subpages:
 
     - title: Workbook Overview
-      url: workbook/overview.html
+      url: cookbook/overview.html
 
     - title: Setup and Installation
-      url: workbook/installation.html
+      url: cookbook/installation.html
 
     - title: The Power of Python
-      url: workbook/power-of-python.html
+      url: cookbook/power-of-python.html
 
     - title: Language Basics
-      url: workbook/language-basics.html
+      url: cookbook/language-basics.html
 
     - title: Creating Programs
-      url: workbook/creating-programs.html
+      url: cookbook/creating-programs.html
 
     - title: Interactivity
-      url: workbook/interactivity.html
+      url: cookbook/interactivity.html
 
     - title: Game Loops
-      url: workbook/game-loops.html
+      url: cookbook/game-loops.html
 
     - title: Customisation
-      url: workbook/customisation.html
+      url: cookbook/customisation.html
 
     - title: Summary
-      url: workbook/summary.html
+      url: cookbook/summary.html
+
 
 
 - title: Projects
