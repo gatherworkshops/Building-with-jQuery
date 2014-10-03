@@ -1,14 +1,31 @@
 ## CSS Syntax
 
-	h1 {
-		color: red;
+In CSS, every rule needs:
+
+- A selector (like `.page-header`)
+- An opening bracket `{` and a closing bracket `}` 
+- Some CSS properties in between the brackets
+<br>
+<br>
+
+
+    .page-header {
+		background-color: blue;
+        color: white;
+        font-size: 50px;
+        padding: 30px;
 	}
 
+
+Also, don't forget the `;` at the end of every line, it's very important!
+
+
+
 Note:
-In HTML we were using angle brackets, in CSS we use curly brackets.
+In HTML we use angle brackets like `<` and `>`. In CSS we use curly brackets like `{` and `}`. This is an easy way to quickly figure out if a piece of code is HTML or CSS!
 
-This is what a single CSS rule looks like. This one changes the colour of h1 tags to red.
+This is what a single CSS rule looks like.
 
-A CSS rule consists of a selector, plus one or more properties.
+A CSS rule consists of a class name, plus one or more design properties that we want to set.
 
-For this rule, the selector is h1 and the property we are changing is the color.
+For this rule, the selector is `.page-header` and the properties we are settings are `background-color`, `color`, `font-size` and `padding`.

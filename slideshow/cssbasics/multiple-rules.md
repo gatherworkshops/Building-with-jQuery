@@ -1,22 +1,26 @@
 ## More CSS Rules
 
-	h1 {
-		color: red;
+CSS rules are just written one after another:
+
+	.page-header {
+		background-color: blue;
+        color: white;
+        font-size: 50px;
+        padding: 30px;
 	}
 
-	p {
-		color: orange;
-        font-family: "Comic Sans MS"
+	.intro-section {
+		background: orange;
+        color: black;
+        font-size: 14px;
+        padding: 30px;
 	}
 
-	strong {
-		color: green;
-        font-style: italic;
-	}
+
 
 Note:
 This is what it looks like when you have more than one CSS rule set up.
 
-This shows rules for heading1, heading2 and paragraph. 
+When you add new rules, you put them one after another in your CSS file. 
 
-It sets a different text colour for each type of html tag.
+Always make sure you have a closing bracket for the previous rule before starting a new one!

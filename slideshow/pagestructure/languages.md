@@ -1,6 +1,6 @@
 ### A web page is made of three main languages
 
-![Venn diagram of HTML, CSS and JS all overlapping](images/html_css_js.png)
+![Venn diagram of HTML, CSS and JS all overlapping](/Building-the-Web/slideshow/images/html_css_js.png)
 
 Note:
 Websites are made of many languages, but your most basic web page, what you see in your browser, is made up of three programming languages.

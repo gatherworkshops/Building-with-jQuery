@@ -1,6 +1,6 @@
 ## Loading a Webpage
 
-![Diagram of how a web page is served](images/diagram_http.png)
+![Diagram of how a web page is served](/Building-the-Web/slideshow/images/diagram_http.png)
 
 Note:
 

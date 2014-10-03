@@ -1,4 +1,4 @@
-![Gather Workshops Logo](images/gw_logo_header.png)
+![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
 
 # Exploring CSS
 ### Adding some style to your pages

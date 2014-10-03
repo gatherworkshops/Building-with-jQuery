@@ -2,30 +2,6 @@
   url: index.html
 
 
-- title: Slideshow
-  url: slideshow/overview.html
-  subpages:
-
-    - title: Foundations of the Web
-      url: slideshow/#/webfoundations
-
-    - title: Page Structure
-      url: slideshow/#/pagestructure
-
-    - title: HTML Basics
-      url: slideshow/#/htmlbasics
-
-    - title: CSS Basics
-      url: slideshow/#/cssbasics
-
-    - title: Site Builder
-      url: slideshow/#/sitebuilder
-
-    - title: Summary
-      url: slideshow/#/endsummary
-
-
-
 
 - title: Cookbook
   url: workbook/overview.html

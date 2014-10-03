@@ -1,6 +1,6 @@
 ### **JavaScript** is the programming language
 
-![Screenshot of Google with all of HTML, CSS, JS enabled](images/google_html_css_js.png)
+![Screenshot of Google with all of HTML, CSS, JS enabled](/Building-the-Web/slideshow/images/google_html_css_js.png)
 
 Note:
 

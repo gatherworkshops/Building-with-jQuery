@@ -1,4 +1,4 @@
-![Gather Workshops Logo](images/gw_logo_header.png)
+![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
 
 # A Fancy Header
 ### Use a custom font to make a cool logo

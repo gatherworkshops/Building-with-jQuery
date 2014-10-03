@@ -1,6 +1,6 @@
 ### **HTML** is the markup language
 
-![Screenshot of Google with only HTML enabled](images/google_html.png)
+![Screenshot of Google with only HTML enabled](/Building-the-Web/slideshow/images/google_html.png)
 
 Note:
 HTML is used to define the content of a web page: the words, the pictures, the links.

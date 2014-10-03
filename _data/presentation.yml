@@ -112,6 +112,15 @@
     - filename: title-page
       class: title-slide
 
+    - filename: css-purpose
+      class: default-slide
+
+    - filename: css-classes
+      class: default-slide
+
+    - filename: styling-classes
+      class: default-slide
+
     - filename: syntax
       class: default-slide
 
