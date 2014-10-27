@@ -1,47 +1,6 @@
 - title: Workshop
   url: index.html
 
-
-
-- title: Cookbook
-  url: cookbook/overview.html
-  subpages:
-
-    - title: Workbook Overview
-      url: cookbook/overview.html
-
-    - title: Setup and Installation
-      url: cookbook/installation.html
-
-    - title: The Power of Python
-      url: cookbook/power-of-python.html
-
-    - title: Language Basics
-      url: cookbook/language-basics.html
-
-    - title: Creating Programs
-      url: cookbook/creating-programs.html
-
-    - title: Interactivity
-      url: cookbook/interactivity.html
-
-    - title: Game Loops
-      url: cookbook/game-loops.html
-
-    - title: Customisation
-      url: cookbook/customisation.html
-
-    - title: Summary
-      url: cookbook/summary.html
-
-
-
-- title: Projects
-  url: projects/overview.html
-
-
-
-
 - title: Community
   url: community/index.html
 
