@@ -1,7 +1,13 @@
+@media (max-width: 978px) {
+    .splash-header {
+        text-align: center;
+    }
+}
+
 .splash-header {
     height: 100%;
 	font-size: 2.4rem;
-    padding: 60px 40px;
+    padding-top: 60px;
     background-color: $splash-header-color;
     background-image: url(#{$baseurl}/images/theme-tile.svg), 
     linear-gradient(to bottom, $splash-header-color 0px, lighten($splash-header-color, 20%) 100%);

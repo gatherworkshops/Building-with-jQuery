@@ -37,13 +37,13 @@
     - filename: southern-cross-cable
       class: centered-slide
 
-    - filename: the-open-web
+    - filename: net-neutrality
       class: default-slide
-
+    
     - filename: open-web-values
       class: default-slide
-
-    - filename: net-neutrality
+    
+    - filename: the-open-web
       class: default-slide
 
     - filename: summary
