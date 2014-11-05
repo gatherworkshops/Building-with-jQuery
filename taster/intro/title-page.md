@@ -1,0 +1,9 @@
+![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
+
+# Web Development Taster
+_Building Websites with HTML & CSS_
+
+
+Note:
+
+Welcome to the Gather Workshops Web Development taster workshop.

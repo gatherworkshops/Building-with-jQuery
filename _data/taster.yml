@@ -1,0 +1,129 @@
+- sectionname: intro
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+
+
+- sectionname: pagestructure
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: languages
+      class: centered-slide
+
+    - filename: html
+      class: centered-slide
+
+    - filename: css
+      class: centered-slide
+
+    - filename: javascript
+      class: centered-slide
+
+    - filename: summary
+      class: centered-slide
+
+
+
+
+
+- sectionname: neocities
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: about
+      class: centered-slide
+
+    - filename: create-site
+      class: centered-slide
+
+    - filename: site-details
+      class: centered-slide
+
+    - filename: dashboard
+      class: centered-slide
+
+
+
+- sectionname: template
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: html
+      class: centered-slide
+
+    - filename: css
+      class: centered-slide
+
+    - filename: upload
+      class: centered-slide
+
+    - filename: preview
+      class: centered-slide
+
+
+
+- sectionname: html
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: tag-pairs
+      class: default-slide
+
+    - filename: common-tags
+      class: default-slide
+
+    - filename: self-closing
+      class: default-slide
+
+
+
+
+- sectionname: css
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: background
+      class: default-slide
+
+    - filename: paragraphs
+      class: default-slide
+
+    - filename: centered-paragraphs
+      class: default-slide
+
+    - filename: defining-classes
+      class: default-slide
+
+    - filename: applying-classes
+      class: default-slide
+
+
+
+- sectionname: youtube
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: videos-html
+      class: centered-slide
+
+    - filename: centered-video
+      class: centered-slide
+
+    - filename: summary
+      class: centered-slide
+
