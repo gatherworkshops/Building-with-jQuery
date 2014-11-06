@@ -145,8 +145,11 @@
     - filename: starter-files
       class: centered-slide
 
-    - filename: neocities-setup
-      class: default-slide
+    - filename: create-site
+      class: centered-slide
+
+    - filename: site-details
+      class: centered-slide
 
     - filename: page-background
       class: default-slide
