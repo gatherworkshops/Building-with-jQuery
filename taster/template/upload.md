@@ -4,7 +4,7 @@ Open up your Neocities dashboard.
 
 Click "Upload".
 
-Select index.html and stylesheet.css then click "Open".
+Select index.html, stylesheet.css and script.js then click "Open".
 
 
 
