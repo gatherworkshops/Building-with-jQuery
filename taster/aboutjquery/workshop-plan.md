@@ -1,8 +1,8 @@
 ## Workshop Plan
 
-1. Use a plugin to create an image gallery
-2. Write some code to import images from Flickr
-3. Write some code to react to clicks
+1. Use a plugin to create a slideshow
+2. Use a plugin to create an image gallery
+3. Write some code to import images from Flickr
 
 
 
