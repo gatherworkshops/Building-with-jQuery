@@ -1,8 +1,8 @@
 ### Workshop Mission:
-# HTML & CSS
+# Fun with jQuery
 
 Note:
-In this workshop we are just going to be covering HTML and CSS.
+In this workshop we are just going to be covering jQuery.
 
 We're going to start by playing with some small pieces of code to get the hang of it.
 

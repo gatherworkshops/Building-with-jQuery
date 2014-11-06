@@ -1,13 +1,13 @@
-![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
+![Gather Workshops Logo](/Building-with-jQuery/slideshow/images/gw_logo_header.png)
 
-# Web Development Taster
-_Building Websites with HTML & CSS_
+# jQuery Taster
+_Enhancing Websites with jQuery_
 
 &nbsp;
 
-tiny.cc/webtaster
+tiny.cc/jquerytaster
 
 
 Note:
 
-Welcome to the Gather Workshops Web Development taster workshop.
+Welcome to the Gather Workshops jQuery taster workshop.

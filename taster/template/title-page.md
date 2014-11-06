@@ -1,7 +1,7 @@
-![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
+![Gather Workshops Logo](/Building-with-jQuery/slideshow/images/gw_logo_header.png)
 
 # Starter Code
-_Simple as copy-and-paste!_
+_Download aaaand then upload!_
 
 
 Note:

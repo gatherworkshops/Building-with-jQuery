@@ -1,7 +1,6 @@
-![Gather Workshops Logo](/Building-the-Web/slideshow/images/gw_logo_header.png)
+![Gather Workshops Logo](/Building-with-jQuery/slideshow/images/gw_logo_header.png)
 
-# What Lies Beneath
-## The bones of a web page
+# Where jQuery Fits
 
 
 Note:

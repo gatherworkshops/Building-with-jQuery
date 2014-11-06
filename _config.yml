@@ -1,4 +1,4 @@
-name: Building the Web
-baseurl: "/Building-the-Web"
+name: Building with jQuery
+baseurl: "/Building-with-jQuery"
 markdown: redcarpet
 highlighter: true

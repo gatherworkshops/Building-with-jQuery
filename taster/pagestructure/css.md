@@ -1,6 +1,6 @@
 ### **CSS** is the style sheet language
 
-![Screenshot of Google with both HTML and CSS enabled](/Building-the-Web/slideshow/images/google_html_css.png)
+![Screenshot of Google with both HTML and CSS enabled](/Building-with-jQuery/slideshow/images/google_html_css.png)
 
 Note:
 

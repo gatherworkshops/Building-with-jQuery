@@ -4,7 +4,7 @@
     - filename: title-page
       class: title-slide
 
-    - filename: why-code
+    - filename: what-is-jquery
       class: default-slide
 
 
@@ -60,10 +60,7 @@
     - filename: title-page
       class: title-slide
 
-    - filename: html
-      class: centered-slide
-
-    - filename: css
+    - filename: files
       class: centered-slide
 
     - filename: upload
@@ -73,60 +70,106 @@
       class: centered-slide
 
 
-
-- sectionname: html
+- sectionname: aboutjquery
   slides:
 
     - filename: title-page
       class: title-slide
 
-    - filename: tag-pairs
+    - filename: jquery-vs-javascript
       class: default-slide
 
-    - filename: common-tags
+    - filename: handwritten
       class: default-slide
 
-    - filename: self-closing
+    - filename: plugins
+      class: default-slide
+
+    - filename: workshop-plan
       class: default-slide
 
 
 
-
-- sectionname: css
+- sectionname: slideshow
   slides:
 
     - filename: title-page
       class: title-slide
 
-    - filename: background
+    - filename: backstretch
       class: default-slide
 
-    - filename: paragraphs
+    - filename: include
       class: default-slide
 
-    - filename: centered-paragraphs
+    - filename: initialise
       class: default-slide
 
-    - filename: defining-classes
-      class: default-slide
-
-    - filename: applying-classes
+    - filename: header-slideshow
       class: default-slide
 
 
 
-- sectionname: youtube
+
+- sectionname: lightbox
   slides:
 
     - filename: title-page
       class: title-slide
 
-    - filename: videos-html
+    - filename: lightbox2
       class: centered-slide
 
-    - filename: centered-video
+    - filename: download
       class: centered-slide
 
-    - filename: summary
-      class: centered-slide
+    - filename: zip-folder
+      class: default-slide
+
+    - filename: include
+      class: default-slide
+
+    - filename: initialise
+      class: default-slide
+
+    - filename: fix-css
+      class: default-slide
+
+
+
+- sectionname: flickr
+  slides:
+
+    - filename: title-page
+      class: title-slide
+
+    - filename: api
+      class: default-slide
+
+    - filename: json
+      class: default-slide
+
+    - filename: json-from-js
+      class: default-slide
+
+    - filename: looping-data
+      class: default-slide
+
+    - filename: generating-html
+      class: default-slide
+
+    - filename: preview-generated
+      class: default-slide
+
+    - filename: use-images
+      class: default-slide
+
+    - filename: insert-html
+      class: default-slide
+
+
+
+
+
+
 
