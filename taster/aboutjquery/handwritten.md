@@ -8,7 +8,7 @@ Or to modify a whole lot of elements in the same way:
 
     $('img').each( function() {
 
-        this.width(100);
+        $(this).width(100);
 
     });
 
