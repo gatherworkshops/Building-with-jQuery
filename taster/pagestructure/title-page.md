@@ -4,4 +4,4 @@
 
 
 Note:
-This is a short section on the languages we are learning today and the role they play.
+So let's take a look at where jQuery fits in with our other web languages.
