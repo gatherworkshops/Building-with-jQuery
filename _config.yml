@@ -2,3 +2,8 @@ name: Building with jQuery
 baseurl: "/Building-with-jQuery"
 markdown: redcarpet
 highlighter: true
+collections:
+  slides:
+    output: true
+  taster:
+    output: true

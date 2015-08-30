@@ -1,171 +1,83 @@
 - sectionname: intro
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: what-is-jquery
-      class: default-slide
+    - title-page
+    - what-is-jquery
 
 
 
 - sectionname: pagestructure
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: languages
-      class: centered-slide
-
-    - filename: html
-      class: centered-slide
-
-    - filename: css
-      class: centered-slide
-
-    - filename: javascript
-      class: centered-slide
-
-    - filename: summary
-      class: centered-slide
-
-
+    - title-page
+    - languages
+    - html
+    - css
+    - javascript
+    - summary
 
 
 
 - sectionname: neocities
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: about
-      class: centered-slide
-
-    - filename: create-site
-      class: centered-slide
-
-    - filename: site-details
-      class: centered-slide
-
-    - filename: dashboard
-      class: centered-slide
+    - title-page
+    - about
+    - create-site
+    - site-details
+    - dashboard
 
 
 
 - sectionname: template
   slides:
+    - title-page
+    - files
+    - upload
+    - preview
 
-    - filename: title-page
-      class: title-slide
-
-    - filename: files
-      class: centered-slide
-
-    - filename: upload
-      class: centered-slide
-
-    - filename: preview
-      class: centered-slide
 
 
 - sectionname: aboutjquery
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: jquery-vs-javascript
-      class: default-slide
-
-    - filename: handwritten
-      class: default-slide
-
-    - filename: plugins
-      class: default-slide
-
-    - filename: workshop-plan
-      class: default-slide
+    - title-page
+    - jquery-vs-javascript
+    - handwritten
+    - plugins
+    - workshop-plan
 
 
 
 - sectionname: slideshow
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: backstretch
-      class: default-slide
-
-    - filename: include
-      class: default-slide
-
-    - filename: initialise
-      class: default-slide
-
-    - filename: header-slideshow
-      class: default-slide
-
+    - title-page
+    - backstretch
+    - include
+    - initialise
+    - header-slideshow
 
 
 
 - sectionname: lightbox
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: lightbox2
-      class: centered-slide
-
-    - filename: download
-      class: centered-slide
-
-    - filename: zip-folder
-      class: default-slide
-
-    - filename: include
-      class: default-slide
-
-    - filename: initialise
-      class: default-slide
-
-    - filename: fix-css
-      class: default-slide
+    - title-page
+    - lightbox2
+    - download
+    - zip-folder
+    - include
+    - initialise
+    - fix-css
 
 
 
 - sectionname: flickr
   slides:
-
-    - filename: title-page
-      class: title-slide
-
-    - filename: api
-      class: default-slide
-
-    - filename: json
-      class: default-slide
-
-    - filename: json-from-js
-      class: default-slide
-
-    - filename: looping-data
-      class: default-slide
-
-    - filename: generating-html
-      class: default-slide
-
-    - filename: preview-generated
-      class: default-slide
-
-    - filename: use-images
-      class: default-slide
-
-    - filename: insert-html
-      class: default-slide
+    - title-page
+    - api
+    - json
+    - json-from-js
+    - looping-data
+    - generating-html
+    - preview-generated
+    - use-images
+    - insert-html
 
 
 
