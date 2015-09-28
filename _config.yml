@@ -1,0 +1,12 @@
+name: Building with jQuery
+baseurl: "/Building-with-jQuery"
+markdown: redcarpet
+highlighter: pygments
+exclude: ["node_modules", "Gemfile", "Gruntfile.js", "package.json", "README.md"]
+
+sass:
+    sass_dir: _sass
+    
+collections:
+  assets:
+    output: true

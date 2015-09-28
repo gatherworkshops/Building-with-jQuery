@@ -1,0 +1,104 @@
+
+
+- title: bubblebackgrounds
+  class: centered-slide
+
+  notes: |
+
+    Your bubbles don't even have to be bubbles.
+
+    You can change the CSS so they look like anything,
+    including photos and animated gifs.
+
+  content: |
+
+    ## CSS Mods
+
+    
+
+
+- title: advancedrandomnumbers
+  class: centered-slide
+
+  notes: |
+
+    Generating a random number always follows the same format.
+
+  content: |
+
+    ## Random Numbers
+
+    ```
+    var randomNumber = Math.random() * howMany + startingNumber;
+
+    ```
+
+    [ picture here ]
+
+    **var randomNumber** : The variable to store the random number
+    **Math.random()** : Creates a random number between 0 and 1
+    **howMany** : How many numbers to choose between.
+    **startingNumber** : The lowest number to include.
+
+
+
+
+
+- title: randomcolours
+  class: centered-slide
+
+  notes: |
+
+    We can also generate random colours in a similar way to
+    how we generate random numbers.
+
+  content: |
+
+    ## Random Colours
+
+
+
+
+- title: gradientbackgrounds
+  class: centered-slide
+
+  notes: |
+
+    Instead of a plain colour background, we can also
+    use more than one colour to make a gradient.
+
+  content: |
+
+    ## Gradient Backgrounds
+
+
+
+- title: poppingbubbles
+  class: centered-slide
+
+  notes: |
+
+    We can also make it so that we pop bubbles by clicking them.
+
+  content: |
+
+    ## Popping Bubbles
+
+    In your moveBubble function:
+
+    ```
+    bubble.click( popBubble );
+
+    ```
+
+    Outside of all the other functions, a new function:
+
+    ```
+    function popBubble() {
+
+      var bubble = $(this);
+      bubble.remove();
+
+    }
+
+    ```

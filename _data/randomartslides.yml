@@ -1,0 +1,243 @@
+
+- title: title-page
+  class: title-slide
+
+  notes: |
+
+    In this section we will make randomised artwork.
+
+  content: |
+
+    ![Gather Workshops Logo]([[BASE_URL]]/assets/images/gw_logo.png)
+
+    # Random Art
+    _Creating living art that changes randomly_
+
+
+
+
+- title: demo
+  class: centered-slide
+
+  notes: |
+
+    Here's an example of something you might create.
+
+  content: |
+
+    ## Random Art Demo
+
+    [demo goes here]
+
+    You can create something like this but with your own theme
+
+
+
+- title: background
+  class: centered-slide
+
+  notes: |
+
+    Normally you would design your background using your stylesheet.
+
+    Today we will so the same thing but using jQuery, so you can see 
+    how to change css values using jQuery.
+
+    Use jQuery to get your whole `#artContainer` as a variable.
+
+  content: |
+
+    ## Background
+
+    ```
+    var artContainer = $('#artContainer');
+    artContainer.css('background-image', 'url(gathergather.co.nz/grumpy-cat.png)');
+    artContainer.css('background-size', 'cover');
+
+    ```
+
+
+
+
+- title: createimage
+  class: centered-slide
+
+  notes: |
+
+    Create an image and put it on the screen.
+
+  content: |
+
+    ## Create An Image
+
+    ```
+    var image = $('<img>');
+    image.attr('src', 'images/bunny.jpg');
+    image.appendTo(artContainer);
+
+    ```
+
+
+
+
+- title: positionimage
+  class: centered-slide
+
+  notes: |
+
+    You should now be able to see the image on your page.
+
+    Next we will change its position to see how we can move
+    things around.
+
+  content: |
+
+    ## Position The Image
+
+    ```
+    image.css('left', 200);
+    image.css('top', 200);
+
+    ```
+
+
+
+
+- title: randomlypositionimage
+  class: centered-slide
+
+  notes: |
+
+    Your image should now be moved 200px from the left 
+    and 200px from the top.
+
+    We can change our code so that the top and left positions
+    are a random number.
+
+  content: |
+
+    ## Random Positioning
+
+    ```
+    image.css('left', Math.random() * 300);
+    image.css('top', Math.random() * 300);
+
+    ```
+
+
+
+
+- title: positionwithincontainer
+  class: centered-slide
+
+  notes: |
+
+    Now we need to make our random number be between 0 and
+    the width of the container.
+
+  content: |
+
+    ## Random Number Within container
+
+    ```
+    image.css('left', Math.random() * artContainer.width() );
+    image.css('top', Math.random() * artContainer.height() );
+
+    ```
+
+
+
+
+- title: randomsize
+  class: centered-slide
+
+  notes: |
+
+    We can also randomise the size of our picture.
+
+  content: |
+
+    ## Random Sizing
+
+    ```
+    image.css('width', Math.random() * 50);
+
+    ```
+
+
+
+
+- title: swarming
+  class: centered-slide
+
+  notes: |
+
+    Now, we can create a whole swarm by repeating the same
+    piece of code over and over.
+
+  content: |
+
+    ## Create a Swarm
+
+    ```
+    for( var counter = 20; counter > 0; counter = counter - 1) {
+
+      ... code you already wrote ...
+
+    }
+
+    ```
+
+
+- title: loopinganimation
+  class: centered-slide
+
+  notes: |
+
+    There are some CSS classes set up in the stylesheet you can Use
+    to animate your images to do something over and over.
+
+  content: |
+
+    ## Animation Loops
+
+
+
+
+- title: mouseover
+  class: centered-slide
+
+  notes: |
+
+    Mouse over and do something.
+
+    Grow.
+    Shrink.
+    Random.
+    Move.
+    Rotate.
+
+  content: |
+
+    ## Mouse Over
+
+
+
+
+- title: mouseclick
+  class: centered-slide
+
+  notes: |
+
+    You can also make stuff happen when you click.
+
+    Add a new blob each time you click.
+
+  content: |
+
+    ## Mouse click
+
+
+
+
+
