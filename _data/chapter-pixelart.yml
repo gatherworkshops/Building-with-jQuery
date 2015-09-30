@@ -92,6 +92,8 @@
 
     Here is an example of the pixel art drawing board we will be creating.
 
+    Take 5 minutes to see what you can design using only 100 pixels.
+
   content: |
 
     ## Pixel Art Demo
@@ -113,12 +115,128 @@
 
   content: |
 
-    ## Code Your Own
+    ![HTML File]([[BASE_URL]]/media/images/slidecontent/cloud-cannon.svg)
+    <!-- .element height="200" -->
 
-    Create a new file called `pixelart.html` and paste in this code:
+    ## Sign up for Cloud Cannon
+
+    [Click here to sign up](http://cloudcannon.com)
+    <!-- .element target="_blank" -->
+
+
+##########
+
+
+- title: starterfiles
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## Create Your Code Files
+
+    Create a new project called `jQuery Project`,<br> then create three new files:
+
+    - ![HTML File]([[BASE_URL]]/media/images/slidecontent/html-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **pixelart.html**<br>
+      for your HTML
+
+    - ![CSS File]([[BASE_URL]]/media/images/slidecontent/css-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **pixelart.css**<br>
+      for your design
+
+    - ![JS File]([[BASE_URL]]/media/images/slidecontent/js-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **pixelart.js**<br>
+      for your jQuery
+
+    <!-- .element class="flex-list" -->
+
+
+##########
+
+
+- title: htmlstarter
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## HTML Starter Code
+
+    Open up `pixelart.html` and paste in this code:
     
-    <iframe height='520' scrolling='no' src='//codepen.io/gatherworkshops/embed/epBrwG/?height=520&theme-id=19418&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/gatherworkshops/pen/epBrwG/'>Pixel Art Starter HTML</a> by Gather Workshops (<a href='http://codepen.io/gatherworkshops'>@gatherworkshops</a>) on <a href='http://codepen.io'>CodePen</a>.
+    <iframe height='470' scrolling='no' src='//codepen.io/gatherworkshops/embed/epBrwG/?height=470&theme-id=19418&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/gatherworkshops/pen/epBrwG/'>Pixel Art Starter HTML</a> by Gather Workshops (<a href='http://codepen.io/gatherworkshops'>@gatherworkshops</a>) on <a href='http://codepen.io'>CodePen</a>.
     </iframe>
+
+    Make sure to save!
+
+
+##########
+
+
+- title: jquerystarter
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## jQuery Starter Code
+
+    Open up `pixelart.js` and paste in this code:
+    
+    ```language-javascript
+    $(document).ready( function() {
+  
+    // your jQuery code goes here
+      
+    });
+    ```
+
+    Make sure to save!
+
+
+##########
+
+
+- title: cssstarter
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## CSS Starter Code
+
+    Open up `pixelart.css` and paste in this code:
+    
+    ```language-css
+    *{
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: lightblue;
+    }
+    ```
+
+    Make sure to save!
 
 
 ##########
@@ -133,11 +251,20 @@
 
     Our drawing board will be a white box with a solid border.
 
+    When you preview, remember that you will need to add `/pixelart.html` to the end of your cloud cannon URL.
+
   content: |
 
     ## Create the Drawing Board
 
-    Between your `style` tags, describe how the board should look:
+    In your `pixelart.html`, between the `body` tags:
+
+    ```language-html
+    <div class="drawingBoard">
+    </div>
+    ```
+
+    In your `pixelart.css`, describe how the board should look:
 
     ```language-css
     .drawingBoard {
@@ -145,13 +272,6 @@
       height: 300px;
       border-style: solid;
     }
-    ```
-
-    Between your `body` tags, add the drawing board div:
-
-    ```language-html
-    <div class="drawingBoard">
-    </div>
     ```
 
     You should see an empty box on your page.
@@ -224,7 +344,7 @@
 
     ## Creating the Pixels
 
-    Between your `style` tags, describe how each pixel should look:
+    In your `pixelart.css`, describe how each pixel should look:
 
     ```language-css
     .pixel {
@@ -236,7 +356,8 @@
     }
     ```
 
-    Between your `drawingBoard` tags, create 100 pixel divs:
+    In your `pixelart.html`, between your `drawingBoard` div tags,<br>
+    create 100 pixel divs. Yes, copy and paste 100 of them!
 
     ```language-html
     <div class="pixel"></div>
@@ -339,18 +460,20 @@
     the pixels, so our first step is to use jQuery to identify
     all of the pixels in our box.
 
+    If your popup doesn't say `100` then you have too many (or not enough!) pixels on your page.
+
   content: |
 
     ## Get Those Pixels
 
-    Between your `script` tags, get all the pixels:
+    Open `pixelart.js` and use this code to get all the pixels:
 
     ```language-javascript
     var allPixels = $('.pixel');
     alert( allPixels.length );
     ```
 
-    Refresh, and you should see a pop-up which says "100".
+    Preview, and you should see a pop-up which says "100".
     <!-- .element class="checkpoint" -->
 
 

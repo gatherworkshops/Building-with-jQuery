@@ -48,7 +48,7 @@
 
     ## HTML: Coding Our Content
 
-    ![]([[BASE_URL]]/media/images/slidecontent/google_html.png)
+    ![]([[BASE_URL]]/media/images/slidecontent/google-html.png)
 
 
 ##########
@@ -65,7 +65,7 @@
 
     ## CSS: Coding Our Design
 
-    ![]([[BASE_URL]]/media/images/slidecontent/google_html_css.png)
+    ![]([[BASE_URL]]/media/images/slidecontent/google-css.png)
 
 
 ##########
@@ -82,7 +82,7 @@
 
     ## JavaScript: Coding Our Interactions
 
-    ![]([[BASE_URL]]/media/images/slidecontent/google_html_css_js.png)
+    ![]([[BASE_URL]]/media/images/slidecontent/google-javascript.png)
 
 
 ##########
@@ -100,19 +100,20 @@
 
   content: |
 
-    ## Getting Elements
+    ## Getting Elements in jQuery
 
-    We can get an element the same way as in CSS,<br>
-    with its `id` its `class` or the element tag type.
+    We find elements using the same selectors as in CSS:
     
-    ```language-javascript
-    var header = $('#pageHeader');
-    var allPhotos = $('.photo');
-    var allImages = $('img');
-    ```
+    - **Get one by id**<br>
+    `$('#logo')`
+    - **Get many by class**<br>
+    `$('.photo')`
+    - **Get all by tag**<br>
+    `$('img');`
 
-    When we find an element, we give it a `var` name,<br>
-    so we can do stuff to it later using an easy name.
+    <!-- .element class="flex-list" -->
+
+    Only difference is we do it in brackets, with a dollar sign.
 
 
 ##########
