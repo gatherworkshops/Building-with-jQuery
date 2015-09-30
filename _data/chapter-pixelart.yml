@@ -491,7 +491,14 @@
 
     ## White Pixels
 
-    Create a new CSS class called `white`:
+    Instead of the alert, add the class `white` to every pixel:
+    ```language-javascript
+    var allPixels = $('.pixel');
+    allPixels.addClass('white');
+    ```
+    <!-- .element data-line="2" -->
+
+    And also create that CSS class called `white`:
 
     ```language-css
     .white {
@@ -499,12 +506,10 @@
     }
     ```
 
-    Instead of the alert, add the class `white` to every pixel:
-    ```language-javascript
-    var allPixels = $('.pixel');
-    allPixels.addClass('white');
-    ```
-    <!-- .element data-line="2" -->
+    Your pixels should now all be white.
+    <!-- .element class="checkpoint" -->
+
+    
 
 
 ##########
@@ -600,6 +605,9 @@
     }
     ```
     <!-- .element data-line="2-5" -->
+
+    Your pixels should turn black when clicked.
+    <!-- .element class="checkpoint" -->
 
 
 ##########
