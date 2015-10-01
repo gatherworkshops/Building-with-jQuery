@@ -126,8 +126,8 @@
 
     var bubble = $(this);
 
-    var leftSpace = Math.random() * container.width();
-    var topSpace = Math.random() * container.height();
+    var leftSpace = Math.random() * $('#bubbleBox').width();
+    var topSpace = Math.random() * $('#bubbleBox').height();
 
     }
     ```
@@ -158,8 +158,8 @@
 
     var bubble = $(this);
 
-    var leftSpace = Math.random() * container.width();
-    var topSpace = Math.random() * container.height();
+    var leftSpace = Math.random() * $('#bubbleBox').width();
+    var topSpace = Math.random() * $('#bubbleBox').height();
   
     var newCSS = {
       'left': leftSpace,
@@ -196,8 +196,8 @@
     Add a new size to your animation:
 
     ```language-javascript
-    var leftSpace = Math.random() * container.width();
-    var topSpace = Math.random() * container.height();
+    var leftSpace = Math.random() * $('#bubbleBox').width();
+    var topSpace = Math.random() * $('#bubbleBox').height();
     var size = Math.random() * 200;
   
     var newCSS = {
@@ -230,12 +230,19 @@
 
     ## Animation time
 
+    Find the line where you do `bubble.animate` and change it:
+
     ```language-javascript
     var animationTime = Math.random() * 10000 + 5000;
     bubble.animate( newCSS, animationTime );
 
     ```
 
+    Instead of an animation time of `5000`,<br>
+    we want a random length of animation.
+
+    Your bubbles should now finish moving at different times.
+    <!-- .element class="checkpoint" -->
 
 
 - title: moveforever
@@ -253,10 +260,18 @@
 
     ## Floating forever
 
+    Find the line where you do `bubble.animate` and modify it:
+
     ```language-javascript
     bubble.animate( newCSS, animationTime, moveBubble );
 
     ```
+
+    If you pass in the name of the function at the end of the brackets,<br>
+    it will run the animation again once it finishes.
+
+    Your animations should now go forever.
+    <!-- .element class="checkpoint" -->
 
 
 ##########

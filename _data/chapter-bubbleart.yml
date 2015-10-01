@@ -37,7 +37,44 @@
 ##########
 
 
-- title: startercode
+- title: starterfiles
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## Create Your Code Files
+
+    In your same `jQuery Project`,<br> create three more files:
+
+    - ![HTML File]([[BASE_URL]]/media/images/slidecontent/html-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **bubbleart.html**<br>
+      for your HTML
+
+    - ![CSS File]([[BASE_URL]]/media/images/slidecontent/css-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **bubbleart.css**<br>
+      for your design
+
+    - ![JS File]([[BASE_URL]]/media/images/slidecontent/js-file.svg)
+      <!-- .element height="150" -->
+      <br>
+      **bubbleart.js**<br>
+      for your jQuery
+
+    <!-- .element class="flex-list" -->
+
+
+##########
+
+
+- title: starterhtml
   class: centered-slide
 
   notes: |
@@ -46,50 +83,70 @@
 
   content: |
 
-    ## Code Your Own
+    ## HTML Starter Code
 
-    Create a new file called `bubbleart.html` and paste in this code:
+    Open up `bubbleart.html` and paste in this code:
     
-    <iframe height='450' scrolling='no' src='//codepen.io/gatherworkshops/embed/OybELP/?height=450&theme-id=19418&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/gatherworkshops/pen/OybELP/'>Bubble Art Starter Code</a> by Gather Workshops (<a href='http://codepen.io/gatherworkshops'>@gatherworkshops</a>) on <a href='http://codepen.io'>CodePen</a>.
+    <iframe height='500' scrolling='no' src='//codepen.io/gatherworkshops/embed/OybELP/?height=500&theme-id=19418&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/gatherworkshops/pen/OybELP/'>Bubble Art Starter HTML</a> by Gather Workshops (<a href='http://codepen.io/gatherworkshops'>@gatherworkshops</a>) on <a href='http://codepen.io'>CodePen</a>.
     </iframe>
 
-    You will need to click and drag to scroll and get it all!
+    Make sure you save!
 
 
 ##########
 
 
-- title: containercss
+- title: startercss
   class: centered-slide
 
   notes: |
 
-    We have already added a little bit of CSS to make it easier to get started.
+    Open up `bubbleart.css` in your code editor.
 
   content: |
 
-    ## Bubble Box
+    ## CSS Starter Code
 
-    In your HTML there is already a container:
-    ```language-html
-    <div id="bubbleBox">
-    </div>
-    ```
-
-    And some CSS for it:
+    Open up `bubbleart.css` and paste in this code:
+    
     ```language-css
     #bubbleBox {
-      height: 100vh;
-      width: 100vw;
-      position: relative;
-      overflow: hidden;
-      background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-color: lightblue;
     }
-
     ```
 
-    You should already see this code in bubbleart.html
-    <!-- .element class="checkpoint" -->
+    Make sure you save!
+
+
+##########
+
+
+- title: jquerystarter
+  class: centered-slide
+
+  notes: |
+
+    Let's get started building our own!
+
+  content: |
+
+    ## jQuery Starter Code
+
+    Open up `bubbleart.js` and paste in this code:
+    
+    ```language-javascript
+    $(document).ready( function() {
+  
+    // your jQuery code goes here
+      
+    });
+    ```
+
+    Make sure to save!
 
 
 ##########
@@ -128,6 +185,7 @@
     <div class="bubble"></div>
     </div>
     ```
+    <!-- .element data-line="2" -->
 
     You should see a white circle with a black border.
     <!-- .element class="checkpoint" -->
