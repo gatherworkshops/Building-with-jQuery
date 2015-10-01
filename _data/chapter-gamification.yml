@@ -162,7 +162,7 @@
     secondsRemaining = secondsRemaining - 1;
 
     var timerDisplay = $('#countdownTimer');
-    timerDisplay.textContent = secondsRemaining;
+    timerDisplay.html(secondsRemaining);
     }
     ```
 
@@ -197,7 +197,7 @@
     secondsRemaining = secondsRemaining - 1;
 
     var timerDisplay = $('#countdownTimer');
-    timerDisplay.textContent = secondsRemaining;
+    timerDisplay.html(secondsRemaining);
     }
     }
     ```
